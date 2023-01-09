@@ -2,11 +2,11 @@
   "private": true,
   "author": "{{{ author }}}",
   "scripts": {
-    "dev": "max dev",
     "build": "max build",
+    "dev": "max dev",
     "format": "prettier --cache --write .",{{#withHusky}}
-    "prepare": "husky install",{{/withHusky}}
     "postinstall": "max setup",
+    "prepare": "husky install",{{/withHusky}}
     "setup": "max setup",
     "start": "npm run dev"
   },

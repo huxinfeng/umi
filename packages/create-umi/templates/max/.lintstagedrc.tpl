@@ -3,8 +3,7 @@
     "prettier --cache --write"
   ],
   "*.{js,jsx}": [
-    "max lint --fix --eslint-only",
-    "prettier --cache --write"
+    "max lint --fix --eslint-only", "prettier --cache --write"
   ],
   "*.{css,less}": [
     "max lint --fix --stylelint-only",
